@@ -9,6 +9,9 @@ function Hero() {
       <div className="container mx-auto grid h-full gap-10 min-h-[60vh] w-full grid-cols-1 items-center lg:grid-cols-2">
         <div className="row-start-2 lg:row-auto">
           <Typography
+            placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}
             variant="h1"
             color="blue-gray"
             className="mb-4 lg:text-5xl !leading-tight text-3xl"
@@ -16,6 +19,9 @@ function Hero() {
             Welcome to my Web <br /> Development Portofolio!
           </Typography>
           <Typography
+            placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
@@ -25,6 +31,9 @@ function Hero() {
           </Typography>
           <div className="grid">
             <Typography
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
               variant="small"
               className="mb-2 text-gray-900 font-medium"
             >
@@ -33,12 +42,24 @@ function Hero() {
             <div className="mb-2 flex w-full flex-col gap-4 md:w-10/12 md:flex-row">
               {/* @ts-ignore */}
               <Input color="gray" label="Enter your email" size="lg" />
-              <Button color="gray" className="w-full px-4 md:w-[12rem]">
+              <Button
+                placeholder=""
+                onPointerEnterCapture={() => {}}
+                onPointerLeaveCapture={() => {}}
+                color="gray"
+                className="w-full px-4 md:w-[12rem]"
+              >
                 require offer
               </Button>
             </div>
           </div>
-          <Typography variant="small" className="font-normal !text-gray-500">
+          <Typography
+            placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}
+            variant="small"
+            className="font-normal !text-gray-500"
+          >
             Read my{" "}
             <a href="#" className="font-medium underline transition-colors">
               Terms and Conditions
